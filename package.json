@@ -1,0 +1,21 @@
+{
+  "name": "dashboard-charjs-postgres",
+  "version": "1.0.0",
+  "description": "Backend: PostgresSQL Database & NodeJs Server \n Frontend: ChartJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJs",
+    "PostgresSQL",
+    "ChartJs"
+  ],
+  "author": "Rohit Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.2.0-rc.1",
+    "express": "^4.14.0",
+    "pg": "^6.0.2"
+  }
+}
