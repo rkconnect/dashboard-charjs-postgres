@@ -48,6 +48,7 @@ Date.prototype.formatDDMMYYYY = function() {
 function fillData() {
     if (document.getElementById('start').value > document.getElementById('end').value) {
         document.getElementById('errorMsg').innerHTML = "Please Select an End Date After Start Date";
+        window.barChart.destroy();
     } else {
         document.getElementById('errorMsg').innerHTML = "";
         $.ajax({
